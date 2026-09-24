@@ -37,6 +37,12 @@ export const project = defineType({
       type: "string",
     }),
     defineField({
+      name: "completedDate",
+      title: "Date Completed",
+      type: "date",
+      description: "Roughly when this project was completed (used for sorting on the site).",
+    }),
+    defineField({
       name: "summary",
       title: "Summary",
       type: "text",
