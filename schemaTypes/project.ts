@@ -22,14 +22,6 @@ export const project = defineType({
       name: "category",
       title: "Category",
       type: "string",
-      options: {
-        list: [
-          "Renovation",
-          "Painting & Decorating",
-          "Surveying",
-          "General Contracting",
-        ],
-      },
     }),
     defineField({
       name: "location",
